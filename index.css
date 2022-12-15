@@ -1,5 +1,5 @@
 :root{
-    --primary:#00008b;
+    --primary:#0e0e5a;
     --light:white;
     --dark:#000;
 }
@@ -11,13 +11,21 @@ body{
 .btn{
     font-weight: 500px;
     text-transform: uppercase;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .btn.btn-primary,
 .btn.btn-secondary{
     color: white;
 }
+
+.section-title{
+    position: relative;
+    display: inline-block;
+}
+
+
+
 
 .carousel-caption{
     top:0;
