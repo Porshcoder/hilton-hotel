@@ -1,0 +1,41 @@
+:root{
+    --primary:#00008b;
+    --light:white;
+    --dark:#000;
+}
+
+body{
+    background-color: white;
+}
+
+.btn{
+    font-weight: 500px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary{
+    color: white;
+}
+
+.carousel-caption{
+    top:0;
+    left:0 ;
+    right: 0;
+    bottom: 0;
+    background: rgb(15,23,43,0.7);
+    z-index: 1;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width:10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+
