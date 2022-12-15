@@ -38,4 +38,10 @@ body{
     height: 3rem;
 }
 
+.booking{
+    position: relative;
+    margin-top: -100px !important;
+    z-index: 1;
+}
+
 
