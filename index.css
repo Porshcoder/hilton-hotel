@@ -29,19 +29,19 @@ body{
     width: 45px;
     height: 2px;
     top: 50%;
-    left:-55px;
+    left: -55px;
     margin-top:-1px;
     background:var(--primary);
 }
 .section-title::after{
-   position: absolute;
-   content: "";
-   width: 45px;
-   height: 2px;
-   top: 50%;
-   left: -55px;
-   margin-top:-1px;
-   background:var(--primary);
+    position: absolute;
+    content:"";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: var(--primary);
 }
 .section-title.text-start::before,
 .section-title.text-start::before{
@@ -92,12 +92,11 @@ body{
     
 }
 
-.service-item.service-icon{
+.service-item .service-icon{
     margin: 0 auto 30px auto;
     width: 65px;
     height: 65px;
     transition: 0.5s;
-
 }
 .service-item i,
 .service-item h5,
@@ -109,4 +108,47 @@ body{
 .service-item:hover h5,
 .service-item:hover p{
     color: white !important;
+}
+
+.testimonial{
+    background: linear-gradient(rgba(15,23,43,0.7),rgba(15,23,43,0.7)),url(./images/pexels-download-a-pic-donate-a-buck-^-54379.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial-carousel{
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.testimonial-carousel .testimonial-item{
+    padding: 25px;
+}
+
+.testimonial-carousel .owl-nav{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: calc(50% - 20px);
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: var(--primary);
+    border-radius: 2px;
+    font-size: 18px;
+    
+
 }
