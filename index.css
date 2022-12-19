@@ -149,6 +149,41 @@ body{
     background: var(--primary);
     border-radius: 2px;
     font-size: 18px;
-    
+}
 
+.newsletter{
+    position: relative;
+    z-index: 1;
+}
+
+.footer{
+    position: relative;
+    margin-top: -110px;
+    padding-top: 180px;
+}
+
+.footer .btn.btn-social{
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid white;
+    border-radius: 35px;
+    transition: 0.3s;
+
+}
+
+.footer .btn.btn-link{
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: 0.3s;
 }
