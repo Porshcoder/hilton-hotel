@@ -1,5 +1,5 @@
 :root{
-    --primary:#0e0e5a;
+    --primary:#2c16bb;
     --light:white;
     --dark:#000;
 }
@@ -136,7 +136,7 @@ body{
 .testimonial h1{
     text-align: center;
     font-weight: bold;
-    color: #ff9800;
+    color:#2c16bb;
     padding-bottom: 10px;
     text-transform: uppercase;
 
@@ -145,7 +145,7 @@ body{
 
 .testimonial h1::after{
     content: "";
-    background: #ff9800;
+    background: #2c16bb;
     display: block;
     height: 3px;
     width: 170px;
@@ -184,12 +184,12 @@ body{
 .profile h3{
     font-size: 20px;
     margin-top: 15px;
-    color: #ff9800;
+    color: #2c16bb;
 
 }
 
-small{
-    font-size: 12px;
+.size{
+    font-size: 14px;
     color: #000;
 }
 
@@ -203,7 +203,7 @@ blockquote::before{
     content: '\93';
     font-size: 50px;
     position: relative;
-    color: #ff9800;
+    color: #2c16bb;
     line-height: 20px;
     bottom: -15px;
     right: 5px;
@@ -214,7 +214,7 @@ blockquote::after{
     content: '\94';
     font-size: 50px;
     position: relative;
-    color: #ff9800;
+    color: #2c16bb;
     line-height: 10px;
     bottom: -15px;
     left:5px;
