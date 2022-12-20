@@ -193,6 +193,10 @@ body{
     color: #000;
 }
 
+.colour{
+    color: #000;
+}
+
 blockquote{
     font-size: 14px;
     line-height: 30px;
